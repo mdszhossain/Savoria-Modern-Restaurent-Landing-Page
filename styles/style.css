@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .hero-banner {
         width: 100%;
-        height: 790px;
+        height: 100vh;
         /* background-color: black; */
     }
     .view-menu-btn {
