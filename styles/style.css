@@ -15,4 +15,11 @@ h1, h2, h3, h4, h5, h6 {
     .nav-links {
         display: none;
     }
+    .nav-logo {
+        font-size: 1.85rem;
+    }
+    .reservation-btn {
+        padding: 0.5rem 0.85rem;
+        font-size: 1rem;
+    }
 }
