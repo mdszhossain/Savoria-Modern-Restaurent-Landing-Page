@@ -26,13 +26,13 @@
         <!-- Header Part -->
         <header>
             <!-- Nav-Bar -->
-            <div class="nav-bar-bg sm:px-10 md:px-0 bg-white h-22 flex justify-center items-center border-b-1 border-b-gray-300 fixed top-0 w-full opacity-99">
+            <div class="nav-bar-bg z-40 sm:px-10 md:px-0 bg-white h-22 flex justify-center items-center border-b-1 border-b-gray-300 fixed top-0 w-full opacity-99">
                 <nav class="navbar flex justify-between container items-center">
                     <div class="nav-logo logo-font text-4xl text-[#963c00]">SAVORIA</div>
                     <ul class="nav-links font-bold text-md md:flex gap-8 sm:hidden">
                         <li><a class="hover:text-[#963c00]" href="#Home">Home</a></li>
                         <li><a class="hover:text-[#963c00]" href="#About">About</a></li>
-                        <li><a class="hover:text-[#963c00]" href="#">Menu</a></li>
+                        <li><a class="hover:text-[#963c00]" href="#Menu">Menu</a></li>
                         <li><a class="hover:text-[#963c00]" href="#">Gallery</a></li>
                         <li><a class="hover:text-[#963c00]" href="#">Contact</a></li>
                     </ul>
@@ -82,13 +82,66 @@
         <main>
             <!-- About Section -->
             <section class="flex justify-center" id="About">
-                <div class="about-content-holder about flex flex-col md:flex-row md:items-center md:mt-25 container md:justify-between  ">
+                <div class="about-content-holder about flex flex-col md:flex-row md:items-center md:mt-25 container md:justify-between mb-25">
                     <div class="about-text-part md:w-5/12">
                         <h2 class="about-heading text-3xl font-medium text-center mt-15 md:mt-0 md:text-left xl:text-5xl">Out Story</h2>
                         <p class="about-desc text-center mt-5 w-10/12 m-auto md:m-0 md:text-left md:mt-5 xl:mt-8">Since 2010, Savoria has been serving exceptional cuisine crafted from the finest locally-sourced ingredients. Our passionate team of chefs combines traditional techniques with modern innovation to create unforgettable dining experiences. Every dish tells a story, and every ingredient is carefully selected to ensure the highest quality. We believe in sustainable practices and supporting local farmers and producers.</p>
                         <button class="reservation-btn view-menu-btn visit-btn bg-[#963c00] text-white px-4 py-3 rounded-md font-bold hover:bg-[#7b3306] block m-auto md:m-0 mt-5 md:mt-5 xl:mt-8   ">Visit Us Today</button>
                     </div>
                     <div class="about-image-part m-auto h-65 mt-10 w-10/12 md:w-6/12 rounded-3xl bg-cover bg-[url(./assets/images/Story-Photo.jpeg)] md:m-0 lg:h-80 xl:h-100"></div>
+                </div>
+            </section>
+
+
+            <!-- Food Menu Section -->
+            <section class="food-menu flex justify-center bg-[#fffbeb]" id="Menu">
+                <div class="food-menu-container w-full py-30 container">
+                    <div class="menu-text-part">
+                        <h2 class="menu-heading text-3xl font-medium text-center xl:text-5xl">Our Menu</h2>
+                        <p class="text-center mt-3">A glimpse into our culinary creations</p>
+                    </div>
+                    <div class="menu-cards grid items-center sm:grid-cols-1 sm:justify-center md:grid-cols-2 md:justify-between lg:grid-cols-3">
+                        <div class="card bg-base-100 w-86 md:w-76 xl:w-96 shadow-sm mt-10 m-auto">
+                            <figure>
+                                <img
+                                src="./assets/images/Menu-1.jpeg"
+                                alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title text-xl font-medium">Truffle Pasta</h2>
+                                <p class="">Fresh handmade pasta with black truffle cream sauce, parmesan, and seasonal herbs</p>
+                                <p class="text-2xl font-medium text-[#963c00]">$32</p>
+                            </div>
+                        </div>
+
+                        <div class="card bg-base-100 w-86 md:w-76 xl:w-96 shadow-sm mt-10 m-auto">
+                            <figure>
+                                <img
+                                class="w-full"
+                                src="./assets/images/Menu-2.jpeg"
+                                alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title text-xl font-medium">Prime Ribeye</h2>
+                                <p class="">12oz grass-fed ribeye with roasted vegetables, truffle mashed potatoes, and red wine reduction</p>
+                                <p class="text-2xl font-medium text-[#963c00]">$32</p>
+                            </div>
+                        </div>
+
+                        <div class="card bg-base-100 w-86 md:w-76 xl:w-96 shadow-sm mt-10 m-auto">
+                            <figure>
+                                <img
+                                class=""
+                                src="./assets/images/Menu-3.jpeg"
+                                alt="Shoes" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title text-xl font-medium">Chocolate Symphony</h2>
+                                <p class="">Dark chocolate mousse with raspberry coulis, gold leaf, and vanilla bean ice cream</p>
+                                <p class="text-2xl font-medium text-[#963c00]">$32</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
