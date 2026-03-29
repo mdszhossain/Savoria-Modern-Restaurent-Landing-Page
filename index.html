@@ -26,12 +26,12 @@
         <!-- Header Part -->
         <header>
             <!-- Nav-Bar -->
-            <div class="nav-bar-bg sm:px-10 bg-white h-22 flex justify-center items-center border-b-1 border-b-gray-300 fixed top-0 w-full opacity-85">
+            <div class="nav-bar-bg sm:px-10 md:px-0 bg-white h-22 flex justify-center items-center border-b-1 border-b-gray-300 fixed top-0 w-full opacity-99">
                 <nav class="navbar flex justify-between container items-center">
                     <div class="nav-logo logo-font text-4xl text-[#963c00]">SAVORIA</div>
                     <ul class="nav-links font-bold text-md md:flex gap-8 sm:hidden">
-                        <li><a class="hover:text-[#963c00]" href="#">Home</a></li>
-                        <li><a class="hover:text-[#963c00]" href="#">About</a></li>
+                        <li><a class="hover:text-[#963c00]" href="#Home">Home</a></li>
+                        <li><a class="hover:text-[#963c00]" href="#About">About</a></li>
                         <li><a class="hover:text-[#963c00]" href="#">Menu</a></li>
                         <li><a class="hover:text-[#963c00]" href="#">Gallery</a></li>
                         <li><a class="hover:text-[#963c00]" href="#">Contact</a></li>
@@ -64,7 +64,7 @@
             </div>
 
             <!-- Hero Section -->
-            <section class="hero-section">
+            <section class="hero-section" id="Home">
                 <div class="hero-banner flex items-center justify-center sm:h-screen bg-[url(./assets/images/Hero-Banner.jpeg)] bg-black/60 bg-blend-darken bg-cover">
                     <div class="hero-container">
                         <h1 class="hero-heading hero-heading-font text-white text-center text-5xl md:text-6xl lg:text-7xl">Experience Fine Dining</h1>
@@ -77,7 +77,21 @@
                 </div>
             </section>
         </header>
-        <main></main>
+
+        <!-- Main Part -->
+        <main>
+            <!-- About Section -->
+            <section class="flex justify-center" id="About">
+                <div class="about-content-holder about flex flex-col md:flex-row md:items-center md:mt-25 container md:justify-between  ">
+                    <div class="about-text-part md:w-5/12">
+                        <h2 class="about-heading text-3xl font-medium text-center mt-15 md:mt-0 md:text-left xl:text-5xl">Out Story</h2>
+                        <p class="about-desc text-center mt-5 w-10/12 m-auto md:m-0 md:text-left md:mt-5 xl:mt-8">Since 2010, Savoria has been serving exceptional cuisine crafted from the finest locally-sourced ingredients. Our passionate team of chefs combines traditional techniques with modern innovation to create unforgettable dining experiences. Every dish tells a story, and every ingredient is carefully selected to ensure the highest quality. We believe in sustainable practices and supporting local farmers and producers.</p>
+                        <button class="reservation-btn view-menu-btn visit-btn bg-[#963c00] text-white px-4 py-3 rounded-md font-bold hover:bg-[#7b3306] block m-auto md:m-0 mt-5 md:mt-5 xl:mt-8   ">Visit Us Today</button>
+                    </div>
+                    <div class="about-image-part m-auto h-65 mt-10 w-10/12 md:w-6/12 rounded-3xl bg-cover bg-[url(./assets/images/Story-Photo.jpeg)] md:m-0 lg:h-80 xl:h-100"></div>
+                </div>
+            </section>
+        </main>
         <footer></footer>
     </body>
 </html>

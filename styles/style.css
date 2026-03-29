@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 p {
     font-family: "Ubuntu", sans-serif;
 }
@@ -29,5 +32,9 @@ h1, h2, h3, h4, h5, h6 {
     }
     .view-menu-btn {
         padding: 0.75rem 1rem;
+    }
+    .navbar {
+        padding-right: 50px;
+        padding-left: 50px;
     }
 }
