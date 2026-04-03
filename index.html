@@ -34,7 +34,7 @@
                         <li><a class="hover:text-[#963c00]" href="#About">About</a></li>
                         <li><a class="hover:text-[#963c00]" href="#Menu">Menu</a></li>
                         <li><a class="hover:text-[#963c00]" href="#Gallery">Gallery</a></li>
-                        <li><a class="hover:text-[#963c00]" href="#">Contact</a></li>
+                        <li><a class="hover:text-[#963c00]" href="#Contact">Contact</a></li>
                     </ul>
                     <div class="reserve-btn sm:ml-65 md:ml-0"><button class="reservation-btn bg-[#963c00] hover:bg-[#7b3306] text-white px-4 py-3 rounded-lg font-bold">Reserve Table</button></div>
                     
@@ -164,6 +164,67 @@
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <section class="contact-section bg-[#171717] h-full pb-10" id="Contact">
+                <div class="upper-text-part">
+                    <h2 class="text-3xl text-white pt-15 text-center md:text-5xl md:font-medium">Visit Us</h2>
+                    <p class="text-white text-center mt-5">We'd love to serve you</p>
+                </div>
+                <div class="bottom-part m-auto md:flex md:container gap-5 md:px-15 md:gap-0 px-10">
+                    <div class="bottom-text-part text-white md:w-7/12">
+                        <div class="location md:mt-10">
+                            <div class="location-header flex flex-row justify-center items-center gap-2 mt-5 md:mt-10 md:justify-start">
+                                <i class="fa-solid fa-location-dot text-white text-xl"></i>
+                                <span class="text-xl font-medium">Location</span>
+                            </div>
+                            <p class="w-8/12 m-auto text-center mt-3 md:text-left md:m-0">123 Culinary Street Downtown<br>District New York, NY 10001</p>
+                        </div>
+                        <div class="hours md:mt-10">
+                            <div class="hours-header flex flex-row justify-center items-center gap-2 mt-5 md:mt-10 items-center gap-2 mt-5 md:justify-start">
+                                <i class="fa-solid fa-alarm-clock text-white text-xl"></i>
+                                <span class="text-xl font-medium">Hours</span>
+                            </div>
+                            <p class="w-8/12 m-auto text-center mt-3 md:text-left md:m-0">Monday - Friday: 5:00 PM - 11:00 PM<br>Saturday - Sunday: 12:00 PM - 11:00 PM</p>
+                        </div>
+                        <div class="phone md:mt-10">
+                            <div class="phone-header flex flex-row justify-center items-center gap-2 mt-5 md:mt-10 items-center gap-2 mt-5 md:justify-start">
+                                <i class="fa-solid fa-phone text-white text-xl"></i>
+                                <span class="text-xl font-medium">Phone</span>
+                            </div>
+                            <p class="w-8/12 m-auto text-center mt-3 md:text-left md:m-0">(555) 123-4567</p>
+                        </div>
+                        <div class="email md:mt-10">
+                            <div class="email-header flex flex-row justify-center items-center gap-2 mt-5 md:mt-10 items-center gap-2 mt-5 md:justify-start">
+                                <i class="fa-solid fa-envelope-circle-check text-white text-xl"></i>
+                                <span class="text-xl font-medium">Email</span>
+                            </div>
+                            <p class="w-8/12 m-auto text-center mt-3 md:text-left md:m-0">reservations@savoria.com</p>
+                        </div>
+                    </div>
+                    <form action="" class="bottom-form-part bg-[#262626] h-100 rounded-xl m-auto mt-10 h-full pb-10 md:w-full xl:w-8/12 md:w-6/12 md:mr-0">
+                        <h2 class="text-xl text-white p-5 mx-auto">Make a Researvation</h2>
+                        <input type="text" name="" id="" class="bg-[#404040] text-white border-none w-11/12 p-4 block m-auto rounded-xl border border-gray-300 focus:outline focus:outline-2 focus:outline-[#e17100]" placeholder="Your Name">
+                        <input type="email" name="" id="" class="bg-[#404040] text-white border-none w-11/12 p-4 block m-auto rounded-xl mt-5 border border-gray-300 focus:outline focus:outline-2 focus:outline-[#e17100]" placeholder="Your Email">
+                        <input type="number" name="" id="" class="bg-[#404040] text-white border-none w-11/12 p-4 block m-auto rounded-xl mt-5 border border-gray-300 focus:outline focus:outline-2 focus:outline-[#e17100]" placeholder="Your Number">
+                        <div class="date-and-time flex flex-col md:flex-row md:w-11/12 md:gap-5 m-auto">
+                            <input type="date" name="" id="" class="bg-[#404040] text-white border-none w-11/12 p-4 block m-auto rounded-xl mt-5 border border-gray-300 focus:outline focus:outline-2 focus:outline-[#e17100]">
+                            <input type="time" name="" id="" class="bg-[#404040] text-white border-none w-11/12 p-4 block m-auto rounded-xl mt-5 border border-gray-300 focus:outline focus:outline-2 focus:outline-[#e17100]">
+                        </div>
+                        <select name="" id="" class="bg-[#404040] text-white border-none w-11/12 p-4 block m-auto rounded-xl mt-5 border border-gray-300 focus:outline focus:outline-2 focus:outline-[#e17100]">
+                            <option value="">Number of Guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5+ Guests</option>
+                        </select>
+                        <textarea placeholder="Special Requests (Optional)" class="bg-[#404040] h-30 text-left text-white border-none w-11/12 p-4 block m-auto rounded-xl mt-5 border border-gray-300 focus:outline focus:outline-2 focus:outline-[#e17100]"></textarea>
+                        <div class="boot-table-btn flex justify-center w-11/12 m-auto">
+                            <button class="bg-[#963C00] hover:bg-[#8C3F00] w-full text-white text-xl p-4 rounded-xl mt-5">Book Table</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </footer>
     </body>
 </html>
